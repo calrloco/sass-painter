@@ -1,0 +1,18 @@
+.wrapper {
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.container {
+    &-full{
+      width: 100%;
+      // da togliere
+      display: flex;
+    }
+    &-center {
+        flex: 1;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 0 54.1rem;
+        display: flex;
+    }
+}

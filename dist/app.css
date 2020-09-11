@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn {
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 20px 7px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.btn-download {
+  background: #666;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 50px 10px 15px;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.container-full {
+  width: 100%;
+  display: flex;
+}
+
+.container-center {
+  flex: 1;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 54.1rem;
+  display: flex;
+}
+
+.nav {
+  background-color: #101010;
+  height: 9.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__top {
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav__top__list {
+  display: flex;
+  color: #989898;
+  display: flex;
+  list-style: none;
+}
+
+.nav__top__list-items {
+  margin-left: 2.5rem;
+}
+
+.nav__bottom {
+  flex: 1;
+}
+
+.header {
+  height: 46rem;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  flex: 1;
+  display: flex;
+  color: #fff;
+}
+
+.header__content {
+  flex: 1;
+  display: flex;
+}
+
+.header__card {
+  margin-top: 2rem;
+  flex: 1.5;
+  background-color: black;
+}
+
+.prod__info {
+  align-self: center;
+  margin-left: 26.6rem;
+  flex: 1;
+}
+
+.prod__info-title {
+  font-size: 2.9rem;
+  text-transform: capitalize;
+}
+
+.prod__info-list {
+  list-style: none;
+}
+
+.intro {
+  flex: 1;
+  height: 90rem;
+}
+
+.overview {
+  flex: 1;
+  height: 90rem;
+}
+
+.products {
+  flex: 1;
+  height: 90rem;
+}
+

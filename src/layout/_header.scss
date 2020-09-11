@@ -1,0 +1,35 @@
+.header{
+    height: $header-height;
+    background-image:url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    flex: 1;
+    display: flex;
+    color: $color-white;
+    &__content{
+       flex: 1;
+       display: flex;
+    }
+    &__card{
+        margin-top: 2rem;
+        flex: 1.5;
+        background-color: black;
+    }
+}
+.prod__info{
+    align-self: center;
+    margin-left: 26.6rem;
+    flex: 1;
+    &-title{
+        font-size: 2.9rem;
+        text-transform: capitalize;
+    }
+    &-heading{
+
+    }
+    &-list{
+        list-style: none;
+
+        &-items{
+
+        }
+    }
+}
