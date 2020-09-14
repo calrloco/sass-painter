@@ -1,6 +1,11 @@
 @mixin btn-blue{
     background: #009cff;
     border: 1px solid #009cff;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px 7px;
 }
 @mixin list-horizontal{
     display: flex;

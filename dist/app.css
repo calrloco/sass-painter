@@ -122,6 +122,7 @@ h4 {
 }
 
 .nav__top {
+  font-size: 1.2rem;
   flex: 0.8;
   display: flex;
   align-items: center;
@@ -137,6 +138,7 @@ h4 {
 
 .nav__top__list-items {
   margin-left: 2.5rem;
+  cursor: pointer;
 }
 
 .nav__bottom {
@@ -238,6 +240,7 @@ h4 {
   flex: 1;
   display: flex;
   color: #fff;
+  margin: 0 auto;
 }
 
 .header__content {
@@ -275,11 +278,23 @@ h4 {
 .header__card-download {
   font-size: 1.4rem;
   margin: 20px 6px 12px 0;
+  background: #009cff;
+  border: 1px solid #009cff;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 20px 7px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .header__card-description {
   background-color: #fff;
   margin-top: 4rem;
+  color: black;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .prod__info {
@@ -350,6 +365,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   color: #fff;
+  margin-bottom: 6rem;
 }
 
 .intro__text-heading {
@@ -382,9 +398,13 @@ h4 {
 
 .overview {
   flex: 1;
-  height: 90rem;
+  min-height: 90rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0 60px;
+  color: #333333;
 }
 
 .overview__text {
@@ -402,6 +422,14 @@ h4 {
   font-size: 1.8rem;
   padding: 0 1.7rem;
   margin: 1.8rem 0;
+}
+
+.overview-img {
+  width: 70%;
+}
+
+.overview-img img {
+  width: 100%;
 }
 
 .full-overview {
@@ -435,11 +463,6 @@ h4 {
   flex-direction: row-reverse;
 }
 
-.key-pillars-card {
-  display: flex;
-  align-items: center;
-}
-
 .key-pillars-1 {
   width: 60%;
   align-self: center;
@@ -449,9 +472,15 @@ h4 {
   width: 100%;
 }
 
+.key-pillars-card {
+  display: flex;
+  padding: 80px 0 60px;
+  align-items: center;
+}
+
 .key-pillars-card__text {
   font-size: 1.8rem;
-  flex: 1;
+  flex: 5;
 }
 
 .key-pillars-card__text-heading {
@@ -461,6 +490,10 @@ h4 {
 
 .key-pillars-card__text-description {
   margin: 1.8rem 0;
+}
+
+.key-pillars-card img {
+  width: 80%;
 }
 
 .key-pillars__container {
@@ -483,6 +516,11 @@ h4 {
 .key-pillars__text-description {
   font-size: 1.8rem;
   margin: 1.8rem 0;
+}
+
+.key-pillars-img {
+  display: flex;
+  justify-content: center;
 }
 
 .workflow {

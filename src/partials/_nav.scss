@@ -9,6 +9,7 @@
     color: $black-navbar;
   }
   &__top {
+    font-size: 1.2rem;
     flex: 0.8;
     display: flex;
     align-items: center;
@@ -19,6 +20,7 @@
       @include list-horizontal;
       &-items {
         margin-left: 2.5rem;
+        cursor: pointer;
       }
     }
   }

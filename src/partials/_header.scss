@@ -4,7 +4,7 @@
     flex: 1;
     display: flex;
     color: $color-white;
-
+     margin: 0 auto;
     &__content {
         display: flex;
         justify-content: flex-end;
@@ -34,10 +34,16 @@
         &-download {
             font-size: 1.4rem;
             margin: 20px 6px 12px 0;
+            @include btn-blue;
+            text-align: center;
+            cursor: pointer;
         }
         &-description {
             background-color: #fff;
             margin-top: 4rem;
+            color: black;
+            font-size: 2rem;
+            padding: 1rem;
         }
     }
 }

@@ -5,22 +5,21 @@
     &-3{
        flex-direction: row-reverse; 
     }
-    &-card{
-        display: flex;
-        align-items: center;
-       
-    }
     &-1{
         width: 60%;
          align-self: center;
         & img{
             width: 100%;
         }
+       
     }
     &-card{
+        display: flex;
+        padding: 80px 0 60px;
+        align-items: center;
         &__text{
             font-size: 1.8rem;
-            flex: 1;
+            flex: 5;
             &-heading{
               margin: 2rem 0 1rem;
               font-size: 2.4rem;
@@ -29,7 +28,9 @@
              margin: 1.8rem 0;
           }
         }
-
+        & img{
+            width: 80%;
+        }
     }
     &__container{
             padding: 80px 0 60px;
@@ -48,5 +49,9 @@
           font-size: 1.8rem;
           margin: 1.8rem 0;
         }
+    }
+    &-img{
+     display: flex;
+     justify-content: center;
     }
 }
