@@ -188,6 +188,30 @@ a:visited {
   border-bottom: 3px solid #000;
 }
 
+.footer__links {
+  height: 298px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__links-list {
+  list-style: none;
+  flex: 1 1;
+}
+
+.footer__links-list a {
+  color: #4d4d4d;
+}
+
+.footer__copy {
+  height: 90px;
+  background-color: inherit;
+}
+
+.footer__copy-wrapper {
+  background-color: #101010;
+}
+
 .header {
   height: 46rem;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
@@ -271,6 +295,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+  justify-content: center;
   padding-top: 8rem;
 }
 
@@ -295,6 +321,18 @@ a:visited {
   text-align: center;
 }
 
+.intro__img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro__img img {
+  width: auto;
+  height: 100%;
+}
+
 .intro-full {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   background-size: cover;
@@ -305,6 +343,29 @@ a:visited {
 .overview {
   flex: 1;
   height: 90rem;
+  display: flex;
+  justify-content: center;
+}
+
+.overview__text {
+  text-align: center;
+  padding: 80px 0 60px;
+}
+
+.overview__text-heading {
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin: 2em 0 3rem;
+}
+
+.overview__text-content {
+  font-size: 1.8rem;
+  padding: 0 1.7rem;
+  margin: 1.8rem 0;
+}
+
+.full-overview {
+  background-color: #fff;
 }
 
 .products {
@@ -315,7 +376,6 @@ a:visited {
 .bg-gap {
   height: 650px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
-  background-color: #ccc;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: fixed;
@@ -329,6 +389,134 @@ a:visited {
 .key-pillars {
   min-height: 2176.38px;
   background-color: #222222;
+}
+
+.key-pillars-3 {
+  flex-direction: row-reverse;
+}
+
+.key-pillars-card {
+  display: flex;
+  align-items: center;
+}
+
+.key-pillars-1 {
+  width: 60%;
+  align-self: center;
+}
+
+.key-pillars-1 img {
+  width: 100%;
+}
+
+.key-pillars-card__text {
+  font-size: 1.8rem;
+  flex: 1;
+}
+
+.key-pillars-card__text-heading {
+  margin: 2rem 0 1rem;
+  font-size: 2.4rem;
+}
+
+.key-pillars-card__text-description {
+  margin: 1.8rem 0;
+}
+
+.key-pillars__container {
+  padding: 80px 0 60px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.key-pillars__text {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.key-pillars__text-heading {
+  font-size: 3.6rem;
+  margin: 2rem 0 1rem;
+}
+
+.key-pillars__text-description {
+  font-size: 1.8rem;
+  margin: 1.8rem 0;
+}
+
+.workflow {
+  min-height: 553px;
+  background-color: #fff;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18.3rem;
+}
+
+.workflow__title {
+  margin: 2rem 0 6rem;
+  font-size: 3.6rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.workflow-items {
+  display: flex;
+}
+
+.workflow__card {
+  flex: 1 1;
+  margin-left: 3.3rem;
+  overflow: hidden;
+}
+
+.workflow__card img {
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.workflow__card img:hover {
+  transform: scale(1.1);
+}
+
+.brush__pack {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  min-height: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brush__pack-card {
+  height: 33rem;
+  background-color: #fff;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #333333;
+  padding: 60px 40px 80px;
+}
+
+.brush__pack-card:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.brush__pack-card-heading {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  font-weight: 400;
+}
+
+.brush__pack-card-description {
+  margin: 1.8rem 0;
+  font-size: 1.8rem;
+  flex: 1;
 }
 
 .margin-top-10 {

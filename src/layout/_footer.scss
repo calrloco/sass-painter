@@ -1,0 +1,23 @@
+.footer {
+    &__links {
+        height: 298px;
+        display: flex;
+        align-items: center;
+        &-list {
+            list-style: none;
+            flex: 1 1;
+
+            & a {
+                color: #4d4d4d;
+            }
+        }
+    }
+    &__copy {
+        height: 90px;
+        background-color: inherit;
+
+        &-wrapper {
+            background-color: $black-navbar;
+        }
+    }
+}
