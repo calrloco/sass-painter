@@ -2,13 +2,26 @@
     &__links {
         height: 298px;
         display: flex;
-        align-items: center;
+        padding: 40px 20px 10px;
+        
+        &-heading{
+            
+            font-weight: 400;
+        }
         &-list {
             list-style: none;
             flex: 1 1;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
 
+            &__items{
+                line-height: 2.4rem;
+            }
             & a {
                 color: #4d4d4d;
+                cursor: pointer;
+                
             }
         }
     }

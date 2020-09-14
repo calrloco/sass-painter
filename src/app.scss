@@ -1,14 +1,21 @@
 @import'base/base';
 @import'base/typography';
-@import 'partials/variables';
-@import 'partials/commons';
-@import 'partials/mixins';
+@import 'abstract/variables';
+@import 'abstract/commons';
+@import 'abstract/mixins';
 @import 'components/buttons';
 @import 'layout/containers';
-@import 'layout/nav';
-@import 'layout/footer';
-@import 'layout/header';
-@import 'pages/home';
-@import 'partials/commons';
+@import 'partials/nav';
+@import 'partials/footer';
+@import 'partials/header';
 @import 'components/buttons';
+@import 'partials/intro';
+@import 'partials/overview';
+@import 'partials/scroll-bg';
+@import 'partials/key-pillars';
+@import 'partials/workflow';
+@import 'partials/brush-pack';
+
+
+
 

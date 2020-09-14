@@ -1,0 +1,42 @@
+.intro {
+    flex: 1;
+    min-height: 90rem;
+    @include flex-column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 8rem;
+    &-full {
+        display: flex;
+        justify-content: center;
+    }
+    &__text {
+        @include flex-column;
+        align-items: center;
+        color: $color-white;
+
+        &-heading {
+            font-size: 3.6rem;
+        }
+        &-description {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+    }
+    &__img{
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        & img{
+            width: auto;
+            height: 100%;
+        }
+    }
+    &-full {
+        background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
