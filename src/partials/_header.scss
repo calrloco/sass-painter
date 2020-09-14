@@ -4,7 +4,7 @@
     flex: 1;
     display: flex;
     color: $color-white;
-     margin: 0 auto;
+    
     &__content {
         display: flex;
         justify-content: flex-end;
@@ -22,10 +22,17 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: row-reverse;
+        @media screen and (max-width:1052px){
+            flex: 0 1 50%;
+        }
         &-text {
             height: 70%;
             display: flex;
             flex-direction: column;
+
+            @media screen and (max-width:1052px){
+                flex: 0 1 50%;
+            }
         }
         &-price {
             font-size: 2.6rem;
