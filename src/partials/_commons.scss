@@ -1,0 +1,7 @@
+$count: 10;
+@while $count <= 30{
+  .margin-top-#{$count}{
+      margin-top: #{$count}+px;
+  }
+  $count: $count + 2;
+}

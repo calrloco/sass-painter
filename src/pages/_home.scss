@@ -1,12 +1,54 @@
-.intro{
+.intro {
+    flex: 1;
+    min-height: 90rem;
+    @include flex-column;
+    align-items: center;
+    padding-top: 8rem;
+    &-full {
+        display: flex;
+        justify-content: center;
+    }
+    &__text {
+        @include flex-column;
+        align-items: center;
+        color: $color-white;
+
+        &-heading {
+            font-size: 3.6rem;
+        }
+        &-description {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+    }
+    &-full {
+        background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+.overview {
     flex: 1;
     height: 90rem;
 }
-.overview{
+.products {
     flex: 1;
     height: 90rem;
 }
-.products{
-    flex: 1;
-    height: 90rem;
+.bg-gap {
+    height: 650px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    &-2 {
+        background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+    }
+}
+.key-pillars {
+    min-height: 2176.38px;
+    background-color: #222222;
 }

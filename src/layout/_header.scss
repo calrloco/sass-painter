@@ -1,35 +1,65 @@
-.header{
+.header {
     height: $header-height;
-    background-image:url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
     flex: 1;
     display: flex;
     color: $color-white;
-    &__content{
-       flex: 1;
-       display: flex;
+
+    &__content {
+        display: flex;
+        justify-content: flex-end;
     }
-    &__card{
+    &__content {
+        flex: 1;
+        display: flex;
+    }
+    &__card {
         margin-top: 2rem;
-        flex: 1.5;
+        flex: 0 1 25%;
         background-color: black;
+        padding: 55px 5px 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        &-text {
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+        }
+        &-price {
+            font-size: 2.6rem;
+            margin-bottom: 1.6rem;
+        }
+        &-download {
+            font-size: 1.4rem;
+            margin: 20px 6px 12px 0;
+        }
+        &-description {
+            background-color: #fff;
+            margin-top: 4rem;
+        }
     }
 }
-.prod__info{
+.prod__info {
     align-self: center;
-    margin-left: 26.6rem;
-    flex: 1;
-    &-title{
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    &-title {
         font-size: 2.9rem;
         text-transform: capitalize;
     }
-    &-heading{
-
+    &-heading {
+        font-size: 2.94rem;
+        margin-bottom: 1rem;
     }
-    &-list{
+    &-list {
         list-style: none;
-
-        &-items{
-
+        margin: 2.5rem 0 3.5rem;
+        &-items {
+            font-size: 1.68rem;
+            margin-bottom: 1rem;
         }
     }
 }
