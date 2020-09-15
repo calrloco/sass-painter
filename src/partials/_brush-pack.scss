@@ -1,0 +1,49 @@
+.brush__pack{
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg');
+    min-height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and(max-width:1300px) {
+        flex-direction: column;
+    }
+  
+    &-card{
+        height: 33rem;
+        background-color: #fff;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: $gray-text;
+        padding: 60px 40px 80px;
+        @media screen and(max-width:1300px) {
+            margin-right:0;
+        }
+        @media screen and(max-width:1300px) {
+            height: auto;
+            width: auto;
+        }
+        &:not(:last-child){
+            margin-right: 3.2rem;
+            @media screen and(max-width:1300px) {
+                margin-right:0;
+            }
+        }
+        @media screen and(max-width:1300px) {
+            margin: 3.2rem 0  3.2rem 0;
+        }
+        &-heading{
+            font-size: 2rem;
+            margin: 2rem 0 1rem;
+            font-weight: 400;
+        }
+        &-description{
+            margin: 1.8rem 0;
+            font-size: 1.8rem;
+            flex: 1;
+        }
+
+    }
+}

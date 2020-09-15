@@ -4,10 +4,15 @@
     flex: 1;
     display: flex;
     color: $color-white;
-
+    @media screen and(max-width:674px) {
+        height: auto;
+    }
     &__content {
         display: flex;
         justify-content: flex-end;
+        @media screen and(max-width:674px) {
+            flex-direction: column;
+        }
     }
     &__content {
         flex: 1;
